@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&display=swap');
+
+:root{
+    --colcarprincipal:#06b12b69;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+/*Estilização headar*/
+.top_ici_up {
+  background-image:linear-gradient(90deg, #00934cee , #00ad59f1),url(../img/euamoibt.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  animation: ani_opacity 2s 1 ease-in-out;
+}
+
+@keyframes ani_opacity {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+/*Estilização lado da imagem*/
+.ld_left_img {
+  width:590px;
+  max-height: 30%;
+  z-index: 1;
+  position: relative;
+  animation: ani_img_left 1 2s ease-in-out;
+  display: flex;
+  align-items: center;
+}
+
+@keyframes ani_img_left {
+    0%{
+        transform: translateX(-200px);
+    }
+    100%{
+
+    }
+}
+/*Estilização da imagem*/
+
+.ld_left_img img{
+    width: 120%;
+    margin-top: 63px;
+    margin-left: 70px;
+}
+
+/*Estilização lador onde fica o texto e logos*/
+.ld_rigth_txt {
+  width: 48%;
+  min-height: 30%;
+  padding: 10px;
+}
+
+/*Estilização interna do lado direito*/
+.ld_rigth_txt{
+    position: relative;
+}
+.ld_rigth_txt .continer_txt_lg {
+  width: 80%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  text-align-last: left;
+  position: absolute;
+  margin-top: 10%;
+  top: 6%;
+  right: 13%;
+}
+/*Animação para os h1/h2 e span*/
+@keyframes ani_img_left_to_reigth {
+    0%{
+        transform: translateX(100px);
+    }
+    100%{
+
+    }
+}
+
+/*Estilização interna do conteudo do lado direito*/
+.ld_rigth_txt .continer_txt_lg h1 {
+    font-size: 4.7rem;
+    font-family: "Montserrat";
+    font-weight: 800;
+    text-transform: uppercase;
+    color: yellow;
+    line-height: 41px;
+    animation: ani_img_left_to_reigth 1s  1 ease-in-out;
+    filter: drop-shadow(5px 4px 5px rgba(0, 0, 0, 0.521));
+}
+
+.ld_rigth_txt .continer_txt_lg h2 {
+    font-size:3.5rem;
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-transform: uppercase;
+    color: yellow;
+    animation: ani_img_left_to_reigth 1.5s  1 ease-in-out;
+    filter: drop-shadow(5px 4px 5px rgba(0, 0, 0, 0.514));
+}
+
+.ld_rigth_txt .continer_txt_lg span {
+    font-size:1.4rem;
+    font-family: "Montserrat";
+    font-weight: 900;
+    color: white;
+    line-height: 22px;
+    animation: ani_img_left_to_reigth 1.7s  1 ease-in-out;
+    filter: drop-shadow(5px 4px 5px rgba(0, 0, 0, 0.514));
+}
+
+/*Estilização da div interna das logos internas do lado direido*/
+
+.ld_rigth_txt .continer_txt_lg #img_wifi_zone {
+    content: "";
+    position: absolute;
+    top: 150px;
+    left: 10%;
+    animation: ani_opacity 3s 1 ease-in-out;
+    animation: scalada 6s infinite ease-in-out alternate-reverse;
+    filter: drop-shadow(5px 4px 5px rgba(0, 0, 0, 0.514));
+
+
+}
+    @keyframes scalada {
+        0%{
+            transform: scale(.8);
+        }
+        100%{
+            transform: scale(.9);
+        }
+    }
+.ld_rigth_txt .continer_txt_lg #img_logo_atinfo {
+    margin-top: 32%;
+    width: 350px;
+    height:260px;
+    margin-left: 20%;
+    animation: ani_opacity 3s 1 ease-in-out;
+    filter: drop-shadow(5px 4px 5px rgba(0, 0, 0, 0.76));
+}
+
+/*Estilização do conteiner do mapeamento*/
+
+.section_mapeamento{
+    height: 100Vh;
+    width: 100%;
+    background-color: red;
+}
+
+
+footer{
+    height: 20vh;
+    background-color: yellow;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+footer div {
+    height: 80%;
+    width: 80%;
+    background-color: blue;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
