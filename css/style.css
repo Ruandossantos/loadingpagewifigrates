@@ -154,12 +154,18 @@
 /*Estilização do conteiner do mapeamento*/
 
 .section_mapeamento{
-    height: 100Vh;
+    height: 100vh;
     width: 100%;
-    background-color: red;
+    background-image:linear-gradient(120deg,#00ad59f1 , #00ad59f1),url(../img/euamoibt.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-
-
+.section_mapeamento h1{
+    color: white;
+    margin: 0px 0px 20px 0px;
+}
 footer{
     height: 20vh;
     background-color: yellow;
