@@ -100,7 +100,6 @@
     animation: ani_img_left_to_reigth 1s  1 ease-in-out;
     filter: drop-shadow(5px 4px 5px rgba(0, 0, 0, 0.521));
 }
-
 .ld_rigth_txt .continer_txt_lg h2 {
     font-size:3.5rem;
     font-family: "Montserrat";
