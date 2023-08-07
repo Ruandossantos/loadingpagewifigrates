@@ -143,8 +143,8 @@
         }
     }
 .ld_rigth_txt .continer_txt_lg #img_logo_atinfo {
-    margin-top: 32%;
-    width: 350px;
+    margin-top: 45%;
+    width: 370px;
     height:260px;
     margin-left: 20%;
     animation: ani_opacity 3s 1 ease-in-out;
@@ -166,7 +166,7 @@
     color: white;
     margin: 0px 0px 20px 0px;
     text-transform: uppercase;
-    font-weight:bolder;
+    font-weight:b;
 }
 footer{
     height: 20vh;
