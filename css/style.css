@@ -173,10 +173,22 @@ footer{
     align-items: center;
     justify-content: center;
     display: flex;
+    flex-direction: column;
 }
-
-footer div {
-    height: 80%;
+.reservado{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+}.reservado p{
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+footer .infomacoes {
+    height: 200px;
     width: 80%;
     background-color: blue;
     align-items: center;
