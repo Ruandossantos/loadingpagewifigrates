@@ -8,9 +8,12 @@
   padding: 0;
   margin: 0;
 }
+body{
+    background-color: #00934cee;
+}
 /*Estilização headar*/
 .top_ici_up {
-  background-image:linear-gradient(90deg, #00934cee , #00ad59f1),url(../img/euamoibt.png);
+  background-image:linear-gradient(90deg, #00934cde , #00934cde),url(../img/euamoibt.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -142,9 +145,9 @@
         }
     }
 .ld_rigth_txt .continer_txt_lg #img_logo_atinfo {
-    margin-top: 45%;
-    width: 370px;
-    height:260px;
+    margin-top: 35%;
+    width: 350px;
+    height:240px;
     margin-left: 20%;
     animation: ani_opacity 3s 1 ease-in-out;
     filter: drop-shadow(5px 4px 5px rgba(0, 0, 0, 0.76));
@@ -155,11 +158,12 @@
 .section_mapeamento{
     height: 100vh;
     width: 100%;
-    background-image:linear-gradient(120deg,#00ad59f1 , #00ad59f1),url(../img/euamoibt.png);
+    background-image:linear-gradient(120deg,#00934cde , #00934cdee),url(../img/euamoibt.png);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 20px;
 }
 .section_mapeamento h1{
     color: white;
@@ -169,7 +173,9 @@
 }
 .footer-conteiner{
     height: 100vh;
-    background-color: #00ad59f1;
+    background-image: linear-gradient(45deg,#00934cde, #00934cde), url(../img/footer/Lovepik_com-400670962-geometric-lines.png);
+    background-position: center center;
+    background-size: cover;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -177,20 +183,18 @@
 }
 
 .inter_footer_container{
-    background-color: blue;
     width: 1200px;
-    height: 80vh;
+    height: 90vh;
     padding: 10px;
 }
 
 .txt_entrecontt{
-    background-color: red;
-    width: 600px;
+    width: 700px;
     margin: 0 auto;
 }
 .txt_entrecontt p{
     color: white;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-family: "Montserrat";
     text-align:center;
 }
@@ -200,8 +204,8 @@
 
 
 .container_informacoes{
-    background-color: yellow;
-    width: 700px;
+    width: 800px;
+    height: 70vh;
     margin: 0 auto;
     display: flex;
 }
@@ -209,7 +213,58 @@
 .container_informacoes
 .info_atinfo{
     width: 300px;
-    background-color: green;
     display: flex;
     flex-direction: column;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.info_atinfo p{
+    color: green;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1px 1px 1px 3px;
+    margin-bottom: 5px;
+    font-size: 1.3rem;
+}
+
+.info_atinfo div {
+    color: white;
+    font-weight: bold;
+    margin: 1px;
+}
+.info_atinfo div > i {
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+.info_atinfo div span {
+    font-size: 1.6rem;
+    margin-right: 2px;
+}
+
+.img_atendente{
+    width: 300px;
+    margin: 2px;
+    position: relative;
+}
+
+.img_atendente img{
+    width: 520px;
+    position:absolute;
+    top:  -90px;
+    left: -80px;
+}
+.viver{
+    height: 30px;
+    width: 800px;
+    background-color: red;
+    position: absolute;
+    top: 430px;
+    right: -132px;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    box-shadow:  inset px 1px 1px  black;
 }
