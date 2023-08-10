@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&display=swap');
 
 :root{
-    --colcarprincipal:#06b12b69;
+    --colcarprincipal:#00934cee;
 }
 
 * {
@@ -167,31 +167,49 @@
     text-transform: uppercase;
     font-weight:b;
 }
-footer{
-    height: 20vh;
-    background-color: yellow;
+.footer-conteiner{
+    height: 100vh;
+    background-color: #00ad59f1;
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
 }
-.reservado{
-    width: 100%;
-    height: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: red;
-}.reservado p{
-    font-size: 0.7rem;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-footer .infomacoes {
-    height: 200px;
-    width: 80%;
+
+.inter_footer_container{
     background-color: blue;
-    align-items: center;
-    justify-content: center;
+    width: 1200px;
+    height: 80vh;
+    padding: 10px;
+}
+
+.txt_entrecontt{
+    background-color: red;
+    width: 600px;
+    margin: 0 auto;
+}
+.txt_entrecontt p{
+    color: white;
+    font-size: 1.4rem;
+    font-family: "Montserrat";
+    text-align:center;
+}
+.txt_entrecontt p > span{
+    color: yellow;
+}
+
+
+.container_informacoes{
+    background-color: yellow;
+    width: 700px;
+    margin: 0 auto;
     display: flex;
+}
+
+.container_informacoes
+.info_atinfo{
+    width: 300px;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
 }
