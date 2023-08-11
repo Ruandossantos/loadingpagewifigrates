@@ -13,7 +13,7 @@ body{
 }
 /*Estilização headar*/
 .top_ici_up {
-  background-image:linear-gradient(90deg, #00934cde , #00934cde),url(../img/euamoibt.png);
+  background-image:linear-gradient(90deg, #00934cee , #00934cde),url(../img/euamoibt.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -158,7 +158,7 @@ body{
 .section_mapeamento{
     height: 100vh;
     width: 100%;
-    background-image:linear-gradient(120deg,#00934cde , #00934cdee),url(../img/euamoibt.png);
+    background-image:linear-gradient(120deg,#00934c , #00934cde),url(../img/euamoibt.png);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -173,7 +173,7 @@ body{
 }
 .footer-conteiner{
     height: 100vh;
-    background-image: linear-gradient(45deg,#00934cde, #00934cde), url(../img/footer/Lovepik_com-400670962-geometric-lines.png);
+    background-image: linear-gradient(45deg,#00934cc5, #00934cde), url(../img/footer/Lovepik_com-400670962-geometric-lines.png);
     background-position: center center;
     background-size: cover;
     align-items: center;
@@ -181,7 +181,7 @@ body{
     display: flex;
     flex-direction: column;
 }
-
+/*Estilização footer*/
 .inter_footer_container{
     width: 1200px;
     height: 90vh;
@@ -191,6 +191,7 @@ body{
 .txt_entrecontt{
     width: 700px;
     margin: 0 auto;
+    margin-top: 20px;
 }
 .txt_entrecontt p{
     color: white;
@@ -219,7 +220,7 @@ body{
     margin-top: 10px;
 }
 .info_atinfo p{
-    color: green;
+    color: yellow;
     background-color: white;
     border-radius: 10px;
     padding: 1px 1px 1px 3px;
@@ -258,8 +259,8 @@ body{
     width: 800px;
     background-color: red;
     position: absolute;
-    top: 430px;
-    right: -132px;
+    top: 404px;
+    right: -152px;
     background-color: white;
     text-align: center;
     justify-content: center;
@@ -268,3 +269,18 @@ body{
     font-family: "Montserrat";
     box-shadow:  inset px 1px 1px  black;
 }
+
+.footer-creditos{
+    height: 20px;
+    width: 100%;
+    background-color: #00934cde;
+    margin-top: 29px;
+}
+
+.footer-creditos p{
+    text-align: center;
+    font-size: 0.7rem;
+    font-weight: bolder;
+}
+
+
