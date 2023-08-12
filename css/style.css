@@ -9,7 +9,8 @@
   margin: 0;
 }
 body{
-    background-color: #00934cee;
+   min-width: 130px;
+   background-color: #00934cee;;
 }
 /*Estilização headar*/
 .top_ici_up {
@@ -42,7 +43,6 @@ body{
   animation: ani_img_left 1 2s ease-in-out;
   display: flex;
   align-items: center;
-  background-color: blue;
 }
 
 @keyframes ani_img_left {
@@ -190,9 +190,10 @@ body{
 }
 
 .txt_entrecontt{
-    width: 700px;
     margin: 0 auto; 
     margin-top: 20px;
+    margin-bottom: 60px;
+
 }
 .txt_entrecontt p{
     color: white;
@@ -258,7 +259,6 @@ body{
 .viver{
     height: 30px;
     width: 800px;
-    background-color: red;
     position: absolute;
     top: 404px;
     right: -152px;
@@ -274,7 +274,6 @@ body{
 .footer-creditos{
     height: 20px;
     width: 100%;
-    background-color: #00934cde;
     margin-top: 29px;
 }
 
