@@ -66,7 +66,6 @@ body{
   width: 48%;
   min-height: 30%;
   padding: 10px;
-    background-color: red;
 }
 
 /*Estilização interna do lado direito*/
@@ -192,7 +191,7 @@ body{
 
 .txt_entrecontt{
     width: 700px;
-    margin: 0 auto;
+    margin: 0 auto; 
     margin-top: 20px;
 }
 .txt_entrecontt p{
