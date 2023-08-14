@@ -186,7 +186,9 @@ body{
     height: 90vh;
     padding: 10px;
 }
-
+.inter_footer_container{
+    margin-bottom: 10%;
+}
 .txt_entrecontt{
     margin: 0 auto; 
     margin-top: 20px;
@@ -195,7 +197,7 @@ body{
 }
 .txt_entrecontt p{
     color: white;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-family: "Montserrat";
     text-align:center;
 }
@@ -219,15 +221,21 @@ body{
     margin-left: 50px;
     margin-top: 10px;
 }
+
 .info_atinfo p{
-    color: yellow;
+    color: green;
     background-color: white;
     border-radius: 10px;
-    padding: 1px 1px 1px 3px;
+    padding: 10px;
     margin-bottom: 5px;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
-
+#instagram {
+    margin-left: 27px;
+}
+#whats{
+    margin-left: 18px;
+}
 .info_atinfo div {
     color: white;
     font-weight: bold;
@@ -239,7 +247,7 @@ body{
 }
 .info_atinfo div span {
     font-size: 1.6rem;
-    margin-right: 2px;
+    margin-right: 1px;
 }
 
 .img_atendente{
@@ -255,7 +263,7 @@ body{
     left: -80px;
 }
 .viver{
-    height: 30px;
+    height: 20px;
     width: 800px;
     position: absolute;
     top: 404px;
@@ -264,7 +272,7 @@ body{
     text-align: center;
     justify-content: center;
     display: flex;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-family: "Montserrat";
     box-shadow:  inset px 1px 1px  black;
 }
@@ -272,13 +280,13 @@ body{
 .footer-creditos{
     height: 20px;
     width: 100%;
-    margin-top: 29px;
 }
 
 .footer-creditos p{
     text-align: center;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     font-weight: bolder;
+    padding: 0;
 }
 
 
