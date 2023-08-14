@@ -186,9 +186,7 @@ body{
     height: 90vh;
     padding: 10px;
 }
-.inter_footer_container{
-    margin-bottom: 10%;
-}
+
 .txt_entrecontt{
     margin: 0 auto; 
     margin-top: 20px;
@@ -230,12 +228,7 @@ body{
     margin-bottom: 5px;
     font-size: 1.2rem;
 }
-#instagram {
-    margin-left: 27px;
-}
-#whats{
-    margin-left: 18px;
-}
+
 .info_atinfo div {
     color: white;
     font-weight: bold;
@@ -266,7 +259,7 @@ body{
     height: 20px;
     width: 800px;
     position: absolute;
-    top: 404px;
+    top: 410px;
     right: -152px;
     background-color: white;
     text-align: center;
