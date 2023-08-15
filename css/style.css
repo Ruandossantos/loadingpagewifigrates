@@ -207,6 +207,7 @@ body{
 .container_informacoes{
     width: 800px;
     height: 70vh;
+    padding: 5px;
     margin: 0 auto;
     display: flex;
 }
@@ -215,9 +216,9 @@ body{
 .info_atinfo{
     width: 300px;
     display: flex;
+    padding: 2px;
     flex-direction: column;
-    margin-left: 50px;
-    margin-top: 10px;
+    position: relative;
 }
 
 .info_atinfo p{
@@ -244,30 +245,26 @@ body{
 }
 
 .img_atendente{
-    width: 300px;
-    margin: 2px;
+    width: 55%;
     position: relative;
 }
 
 .img_atendente img{
-    width: 520px;
+    width: 91%;
     position:absolute;
-    top:  -90px;
-    left: -80px;
 }
+
 .viver{
-    height: 20px;
-    width: 800px;
-    position: absolute;
-    top: 410px;
-    right: -152px;
-    background-color: white;
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    font-size: 1.1rem;
-    font-family: "Montserrat";
-    box-shadow:  inset px 1px 1px  black;
+  background-color: white;
+  height: 25px;
+  width: 840px;
+  color: green;
+  text-align: center;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 1810px;
 }
 
 .footer-creditos{
