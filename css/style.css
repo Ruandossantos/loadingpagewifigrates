@@ -72,8 +72,8 @@ body{
     position: relative;
 }
 .ld_rigth_txt .continer_txt_lg {
-  width: 80%;
-  height: 500px;
+  width: 100%;
+  height: 90%;
   display: flex;
   flex-direction: column;
   text-align-last: left;
@@ -129,7 +129,6 @@ body{
     content: "";
     position: absolute;
     top: 150px;
-    left: 10%;
     animation: ani_opacity 3s 1 ease-in-out;
     animation: scalada 6s infinite ease-in-out alternate-reverse;
     filter: drop-shadow(5px 4px 5px rgba(0, 0, 0, 0.514));
@@ -172,7 +171,8 @@ body{
 }
 .footer-conteiner{
     height: 100vh;
-    background-image: linear-gradient(45deg,#00934cc5, #00934cde), url(../img/footer/Lovepik_com-400670962-geometric-lines.png);
+    width: 90%;
+    
     background-position: center center;
     background-size: cover;
     align-items: center;
@@ -278,5 +278,3 @@ body{
     font-weight: bolder;
     padding: 0;
 }
-
-

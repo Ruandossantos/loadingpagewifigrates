@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --color-texto-destaques: yellow;
+}
+
+.conteiner_top{
+    width: 100%;
+    height: 100vh;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conteudo_interno_top{
+    width: 95%;
+    height: 87vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25%;
+}
+
+.lado_direito{
+    width: 49%;
+    height: 90%;
+    display: none;
+}
+
+.lado_esquerdo{
+    width: 98%;
+    height: 98%;
+}
+
+.texto_conecte{
+    line-height: 40px;
+    text-transform: uppercase;
+    color: var(--color-texto-destaques);
+    text-align: center;
+}
+.texto_conecte h1{
+    font-size: 3.4rem;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+}
+.texto_conecte h2{
+    font-size: 2.6rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.texto_abaixo_conece{
+    width:90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.texto_abaixo_conece span{
+    font-size: 1.7rem;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.imagem_wifizone{
+    width: 60%;
+    height: 240px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.imagem_wifizone img{
+    width: 150%;
+    height: 150%;
+}
+
+.imagem_logoatinfo{
+    width: 90%;
+    height: 20%;
+    margin:  0 auto;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 40px;
+}
+
+.imagem_logoatinfo img{
+    width: 100%;
+}
+
+
+
+
+
+main{
+    
+    background-color: green;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mapa{
+    width: 96%;
+    height: 98%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.texto-mapa{
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.iframamapa{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.foto-contato{
+    width: 96%;
+    height: 98%;
+    background-color: red;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.foto-contato .textos{
+    font-size: 1.4rem;
+    text-align-last:justify;
+    background-color: royalblue;
+}
+.container-img-contatos{
+    background-color: aqua;
+    
+}
+

@@ -75,46 +75,61 @@
     filter: drop-shadow(5px 4px 5px rgba(0, 0, 0, 0.514));
 }
 
-
-
-
-
-
-
-
-
-
 }
-@media screen and (max-width:900px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:980px) {
 *{
   margin: 0;
   
 }
 .ld_left_img img{
-  z-index: 5;
   position: absolute;
   top: 43%;
   left: -190px;
   width: 440px;
+  background-color: rebeccapurple;
+  display: none;
 }
 
 .ld_rigth_txt {
-  width:190%;
-  min-height: 30%;
+  width:99%;
+  height: 99vh;
+  background-color: chartreuse;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
+.continer_txt_lg{
+  background-color: brown;
+  margin: 0;
+  padding: 0;
+}
 .ld_left_img {
   width:12px;
-  max-height: 1%;
-  z-index: 1;
   position: relative;
   animation: ani_img_left 1 2s ease-in-out;
   display: flex;
   align-items: center;
+  background-color: red;
+  display: none;
 }
 
 .ld_rigth_txt .continer_txt_lg h1 {
-  font-size: 2.6rem;
+  font-size: 2.7rem;
 }
 
 .ld_rigth_txt .continer_txt_lg h2{
@@ -128,13 +143,11 @@
 
 .ld_rigth_txt .continer_txt_lg #img_wifi_zone {
   position: absolute;
-  left:60px;
-  top: 55%;
   width: 100%;
-  height: 60%;
   animation: ani_opacity 3s 1 ease-in-out;
   animation: scalada 6s infinite ease-in-out alternate-reverse;
   filter: drop-shadow(5px 4px 5px rgba(0, 0, 0, 0.514));
+  background-color:aqua ;
 }
 
 .ld_rigth_txt .continer_txt_lg #img_logo_atinfo {
@@ -159,10 +172,20 @@
 
 
 
-
+.footer-conteiner{
+  background-color: yellow;
+  height: 100vh;
+  width: 100%;
+}
 .inter_footer_container{
   width: 90%;
-  height: 90vh;
+  height: 100vh;
+  background-color: red;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .txt_entrecontt{
@@ -170,11 +193,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 10px;
+  background-color: aqua;
 }
 
 .txt_entrecontt p{
   color: white;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   font-family: "Montserrat";
   text-align:center;
   width: 340px;
@@ -184,14 +209,13 @@
   color: yellow;
 }
 
-.inter_footer_container{
-}
 .container_informacoes{
   width: 100%;
-  height: 480px;
+  height: 60vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: blueviolet;
 }
 
 .container_informacoes
@@ -209,8 +233,6 @@
   font-size: 1pc;
   text-align: center;
   justify-content: center;
-}
-.inter_footer_container{
 }
 
 .info_atinfo div {
@@ -235,16 +257,23 @@
 
 .img_atendente{
   width: 100%;
-  height: 62%;
+  height: 92%;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0;
-  margin: 0;
+  background-color: chocolate;
+  margin: 0 auto;
 }
-
+.img_atendente span{
+  margin-top: 90%;
+  z-index: 1;
+  background-color: white;
+  color: green;
+  width: 100%;
+  text-align: center;
+}
 .img_atendente img{
-  width: 90%;
+  width: 85% ;
 
 }
 .viver{
@@ -266,12 +295,13 @@ img{
 
 .footer-creditos p{
   text-align: center;
-  font-size: 0.5rem;
+  font-size: 0.6rem;
   font-weight: bolder;
 }
 
 .footer-creditos{
   margin: 0px;
+  background-color: blue;
 }
 
 
