@@ -10,11 +10,12 @@
 .conteiner_top{
     width: 100%;
     height: 100vh;
-    background-color: green;
+    background-image: linear-gradient(35deg, #00934c ,#00934ce1 ),url(../img/euamoibt.png);
     display: flex;
     align-items: center;
     justify-content: center;
-    display: none;
+    background-size: cover;
+    background-position: center center;
 }
 .conteudo_interno_top{
     width: 95%;
@@ -99,7 +100,7 @@ main{
     
     background-color:yellow;
     width: 100%;
-    height: 100vh;
+    height: 200vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -107,15 +108,15 @@ main{
 }
 
 .mapa{
-    display: none;
     background-color: hotpink;
     width: 96%;
-    height: 98%;
+    height: 100%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-family: 'Roboto', sans-serif;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 
@@ -123,14 +124,18 @@ main{
 .texto-mapa{
     text-align: center;
     margin: 0 auto;
-    margin-bottom: 20px;
+}
+.texto-mapa h3 {
+    font-size: 1.1rem;
+    color: white;
+    margin: 0;
 }
 .iframamapa{
-    height: 100%;
+    height: 97%;
     width: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
+   margin-top: 20px;
 }
 
 
@@ -138,7 +143,7 @@ main{
 
 .foto-contato{
     width: 100%;
-    height: 100%;
+    height: 90%;
     background-color: red;
     font-family: 'Roboto', sans-serif;
     background-image: linear-gradient(45deg, #ff0000cb, #ffff00c0), url(/img/footer/Lovepik_com-400670962-geometric-lines.png);
@@ -159,25 +164,29 @@ main{
     background-color: royalblue;
     color: white;
 }
+.foto-contato .textos span{
+    font-size: 1.5rem;
+    color: yellow;
+}
 .container-img-contatos{
     background-color: rgb(128, 94, 0);
-    height: 30%;
+    height: 21%;
     width: 98%;
     margin: 0 auto;
 }
 .container-img-contatos > p{
     margin-top: 10px;
-    font-size: 1.1rem;
     border-radius: 4%;
     background-color: white;
     color: green;
-    text-transform: uppercase;
-
+    text-transform: uppercase;  
+    font-weight: bolder;
 }
+
 .contatos{
     background-color: aquamarine;
-    width: 100%;
-    height: 80%;
+    width: 95%;
+    height: 95%;
     margin: 0 auto;
     text-align: center;
     margin-top:20px;
@@ -189,9 +198,9 @@ main{
     width: 100%;
     height: 30px;
     text-transform: uppercase;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     padding-top: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .contatos div i {
     font-size: 1.4rem;
@@ -209,22 +218,23 @@ main{
 }
 
 .foto-atendente{
-    background-color: red;
+    background-color: rgb(0, 102, 255);
     display: flex;
     text-align: center;
     justify-content: center;
-    height: 100%;
-    margin-top: 50px;
+    margin-top: 20px;
 
 }
 .foto-atendente img{
-    width: 240px;
+    width: 87%;
 }
+
 .img-atendente{
     background-color: greenyellow;
-    width: 100%;
-    height: 100%;
+    width: 95%;
+    height: 95%;
 }
+
 
 
 
@@ -232,7 +242,8 @@ main{
 .footer{
     background-color: green;
     color: black;
-    font-size: .8rem;
+    font-size: .7rem;
     text-align: center;
     height: 20px;
+    padding: 3px;
 }
