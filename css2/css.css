@@ -100,7 +100,7 @@ main{
     
     background-color:yellow;
     width: 100%;
-    height: 200vh;
+    height: 190vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -108,15 +108,13 @@ main{
 }
 
 .mapa{
-    background-color: hotpink;
-    width: 96%;
-    height: 100%;
+    background-image: linear-gradient(45deg, #00934c, #00934c),url(../img/);
+    width: 100%;
+    height: 88%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-family: 'Roboto', sans-serif;
-    margin-bottom: 20px;
-    margin-top: 20px;
 }
 
 
@@ -128,7 +126,6 @@ main{
 .texto-mapa h3 {
     font-size: 1.1rem;
     color: white;
-    margin: 0;
 }
 .iframamapa{
     height: 97%;
@@ -144,38 +141,35 @@ main{
 .foto-contato{
     width: 100%;
     height: 90%;
-    background-color: red;
     font-family: 'Roboto', sans-serif;
-    background-image: linear-gradient(45deg, #ff0000cb, #ffff00c0), url(/img/footer/Lovepik_com-400670962-geometric-lines.png);
+    background-image: linear-gradient(45deg, #00934c, #00934c7a), url(/img/footer/Lovepik_com-400670962-geometric-lines.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .container-texto{
-    background-color: saddlebrown;
-    width: 98%;
-    height: 22%;
+    width: 100%;
+    height: 20%;
     text-align: center;
-    margin:  0 auto;
-    margin-top: 20px;
+    background-color: red;
 }
 .foto-contato .textos{
     font-size: 1.4rem;
-    background-color: royalblue;
     color: white;
 }
+
 .foto-contato .textos span{
     font-size: 1.5rem;
     color: yellow;
 }
+
+
 .container-img-contatos{
-    background-color: rgb(128, 94, 0);
     height: 21%;
     width: 98%;
     margin: 0 auto;
 }
 .container-img-contatos > p{
-    margin-top: 10px;
     border-radius: 4%;
     background-color: white;
     color: green;
@@ -184,7 +178,6 @@ main{
 }
 
 .contatos{
-    background-color: aquamarine;
     width: 95%;
     height: 95%;
     margin: 0 auto;
@@ -218,7 +211,6 @@ main{
 }
 
 .foto-atendente{
-    background-color: rgb(0, 102, 255);
     display: flex;
     text-align: center;
     justify-content: center;
@@ -226,11 +218,10 @@ main{
 
 }
 .foto-atendente img{
-    width: 87%;
+    width: 98%;
 }
 
 .img-atendente{
-    background-color: greenyellow;
     width: 95%;
     height: 95%;
 }
@@ -240,7 +231,6 @@ main{
 
 
 .footer{
-    background-color: green;
     color: black;
     font-size: .7rem;
     text-align: center;
