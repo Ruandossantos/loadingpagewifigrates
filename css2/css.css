@@ -137,8 +137,8 @@ main{
 
 
 .foto-contato{
-    width: 96%;
-    height: 98%;
+    width: 100%;
+    height: 100%;
     background-color: red;
     font-family: 'Roboto', sans-serif;
     background-image: linear-gradient(45deg, #ff0000cb, #ffff00c0), url(/img/footer/Lovepik_com-400670962-geometric-lines.png);
@@ -150,8 +150,9 @@ main{
     background-color: saddlebrown;
     width: 98%;
     height: 22%;
-    padding: 10px;
     text-align: center;
+    margin:  0 auto;
+    margin-top: 20px;
 }
 .foto-contato .textos{
     font-size: 1.4rem;
@@ -159,7 +160,7 @@ main{
     color: white;
 }
 .container-img-contatos{
-    background-color: green;
+    background-color: rgb(128, 94, 0);
     height: 30%;
     width: 98%;
     margin: 0 auto;
@@ -205,4 +206,33 @@ main{
 #whatsapp,
 #instagram{
     margin-left: 22px;
+}
+
+.foto-atendente{
+    background-color: red;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+    margin-top: 50px;
+
+}
+.foto-atendente img{
+    width: 240px;
+}
+.img-atendente{
+    background-color: greenyellow;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.footer{
+    background-color: green;
+    color: black;
+    font-size: .8rem;
+    text-align: center;
+    height: 20px;
 }
