@@ -14,6 +14,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    display: none;
 }
 .conteudo_interno_top{
     width: 95%;
@@ -96,7 +97,7 @@
 
 main{
     
-    background-color: green;
+    background-color:yellow;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -106,13 +107,15 @@ main{
 }
 
 .mapa{
+    display: none;
+    background-color: hotpink;
     width: 96%;
     height: 98%;
-    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
 }
 
 
@@ -132,21 +135,74 @@ main{
 
 
 
+
 .foto-contato{
     width: 96%;
     height: 98%;
     background-color: red;
     font-family: 'Roboto', sans-serif;
-    
+    background-image: linear-gradient(45deg, #ff0000cb, #ffff00c0), url(/img/footer/Lovepik_com-400670962-geometric-lines.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
+.container-texto{
+    background-color: saddlebrown;
+    width: 98%;
+    height: 22%;
+    padding: 10px;
+    text-align: center;
+}
 .foto-contato .textos{
     font-size: 1.4rem;
-    text-align-last:justify;
     background-color: royalblue;
+    color: white;
 }
 .container-img-contatos{
-    background-color: aqua;
-    
+    background-color: green;
+    height: 30%;
+    width: 98%;
+    margin: 0 auto;
+}
+.container-img-contatos > p{
+    margin-top: 10px;
+    font-size: 1.1rem;
+    border-radius: 4%;
+    background-color: white;
+    color: green;
+    text-transform: uppercase;
+
+}
+.contatos{
+    background-color: aquamarine;
+    width: 100%;
+    height: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top:20px;
+}
+.contatos p{
+    background-color: white;
+    color: green;
+    border-radius: 10px;
+    width: 100%;
+    height: 30px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    padding-top: 5px;
+    margin-bottom: 20px;
+}
+.contatos div i {
+    font-size: 1.4rem;
+    margin-right: 10px;
 }
 
+.contatos div span{
+    font-size: 1.4rem;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+#whatsapp,
+#instagram{
+    margin-left: 22px;
+}
