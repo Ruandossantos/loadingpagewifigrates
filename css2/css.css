@@ -17,6 +17,10 @@
     background-size: cover;
     background-position: center center;
 }
+
+@keyframes identifier {
+    
+}
 .conteudo_interno_top{
     width: 95%;
     height: 87vh;
@@ -142,7 +146,7 @@ main{
     width: 100%;
     height: 90%;
     font-family: 'Roboto', sans-serif;
-    background-image: linear-gradient(45deg, #00934c, #00934c7a), url(/img/footer/Lovepik_com-400670962-geometric-lines.png);
+    background-image: linear-gradient(45deg, #00934c, #00934ccc), url(/img/footer/Lovepik_com-400670962-geometric-lines.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -167,7 +171,6 @@ main{
     height: 17%;
     width: 98%;
     margin: 0 auto;
-    background-color: blue;
 }
 .container-img-contatos > p{
     border-radius: 4%;
@@ -184,6 +187,7 @@ main{
     text-align: center;
     margin-top:20px;
 }
+
 .contatos p{
     background-color: white;
     color: green;
@@ -195,6 +199,7 @@ main{
     padding-top: 5px;
     margin-bottom: 10px;
 }
+
 .contatos div i {
     font-size: 1.4rem;
     margin-right: 10px;
@@ -219,8 +224,6 @@ main{
     text-align: center;
     justify-content: center;
     margin-top: 20px;
-    background-color: red;
-    margin-bottom: 40px;
     flex-direction: column;
 }
 .foto-atendente img{
