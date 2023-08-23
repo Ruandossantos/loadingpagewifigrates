@@ -1,0 +1,23 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (min-width:1200px) {
+    .conteiner_top{
+    }
+    .conteudo_interno_top{
+        background-color: rgb(0, 238, 255);
+    }
+    .lado_direito{
+        width: 49%;
+        height: 90%;
+        display: block;
+        background-color: red;
+    }
+    .lado_esquerdo{
+        background-color: blue;
+        width: 30%;
+    }
+}

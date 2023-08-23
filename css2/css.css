@@ -16,10 +16,16 @@
     justify-content: center;
     background-size: cover;
     background-position: center center;
+    animation: opacity 2s 1 ease-in-out;
 }
 
-@keyframes identifier {
-    
+@keyframes opacity {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;  
+    }
 }
 .conteudo_interno_top{
     width: 95%;
@@ -27,7 +33,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 25%;
 }
 
 .lado_direito{
@@ -46,7 +51,18 @@
     text-transform: uppercase;
     color: var(--color-texto-destaques);
     text-align: center;
+    animation: reigth-to-left 2s 1 ease-in-out;
 }
+
+@keyframes reigth-to-left {
+    0%{
+        transform: translateY(-200px);
+    }
+    100%{
+        
+    }
+}
+
 .texto_conecte h1{
     font-size: 3.4rem;
     font-weight: 900;
@@ -61,7 +77,10 @@
     width:90%;
     margin: 0 auto;
     text-align: center;
+    animation: reigth-to-left 2s 1 ease-in-out;
 }
+
+
 .texto_abaixo_conece span{
     font-size: 1.7rem;
     font-family: 'Roboto', sans-serif;
@@ -70,13 +89,25 @@
 
 .imagem_wifizone{
     width: 60%;
-    height: 240px;
+    height: 210px;
     text-align: center;
     display: flex;
     justify-content: center;
     margin: 0 auto;
     margin-bottom: 40px;
+    animation: wifizone 2s 1 ease-in-out;
 }
+
+@keyframes wifizone {
+    0%{
+        transform: translateX(-200px);
+    }
+    100%{
+        
+    }
+}
+
+
 .imagem_wifizone img{
     width: 150%;
     height: 150%;
@@ -94,10 +125,18 @@
 
 .imagem_logoatinfo img{
     width: 100%;
+    animation: imglogo 2s 1 ease-in-out;
 }
 
 
-
+@keyframes imglogo {
+    0%{
+        transform: translateX(200px);
+    }
+    100%{
+        
+    }
+}
 
 
 main{
@@ -159,6 +198,7 @@ main{
 .foto-contato .textos{
     font-size: 1.4rem;
     color: white;
+    padding: 20px;
 }
 
 .foto-contato .textos span{
@@ -186,6 +226,7 @@ main{
     margin: 0 auto;
     text-align: center;
     margin-top:20px;
+    color: white;
 }
 
 .contatos p{
@@ -227,7 +268,7 @@ main{
     flex-direction: column;
 }
 .foto-atendente img{
-    width: 96%;
+    width: 98%;
 }
 
 .img-atendente{
@@ -251,3 +292,5 @@ main{
     height: 20px;
     padding: 3px;
 }
+
+
