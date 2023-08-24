@@ -8,16 +8,162 @@
     .conteiner_top{
     }
     .conteudo_interno_top{
-        background-color: rgb(0, 238, 255);
+        position: relative;
     }
     .lado_direito{
-        width: 49%;
-        height: 90%;
+        width: 54%;
+        height: 100%;
         display: block;
-        background-color: red;
+        z-index: 1;
+        position: absolute;
+        left: 90px;
+    }
+    .lado_direito img{
+        width: 99%;
+        animation: home-top-down 1s 1 ease-in-out;
+    }
+
+    @keyframes home-top-down {
+        0%{
+            transform: translateX(-180px);
+        }
+        100%{
+        }
     }
     .lado_esquerdo{
-        background-color: blue;
-        width: 30%;
+        width: 40%;
+        position: absolute;
+        right: 140px;
     }
+    .texto_conecte {
+        height: 20%;
+        line-height: 50px;
+        margin-bottom: 10px;
+    }
+    .texto_conecte h1{
+        font-size: 4.5rem;
+    }
+    .texto_conecte h2{
+        font-size: 3.5rem;
+    }
+    .texto_abaixo_conece{
+    }
+    .texto_abaixo_conece span{
+        font-size: 2rem;
+    }
+    .imagem_wifizone{
+        width: 100%;
+        height: 40%;
+        position: absolute;
+        top:150px;
+        right: 50px;
+    }
+    .imagem_wifizone img{
+        width: 60%;
+    }
+    
+    .imagem_logoatinfo{
+        position: absolute;
+        top: 75%;
+        height: 30%;
+    }
+
+    main{
+        height: 200vh;
+    }
+    /*ESTILIZAÇÃO CONTEINER DO MINHA SEÇÃO MAPA*/
+    .mapa{
+        height: 200vh;
+        width: 100%;
+        margin-top: -40px;
+    }
+    .texto-mapa h3{
+        font-size: 1.5rem;
+        animation: text-pa 1s 1 ease-in-out ;
+    }
+    @keyframes text-pa {
+        0%{
+            opacity: 0;
+            transform: scale(0.8);
+        }
+        100%{
+
+        }
+    }
+    .iframamapa{
+        height: 640px;
+        width: 100%;
+    }
+
+    .foto-contato{
+        width: 100%;
+    }
+    .container-texto{
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 20px;
+        height: 90px;
+    }
+    .textos{
+        font-size: 3rem;
+    }
+    .container-img-contatos{
+        width: 50%;
+        height: 17%;
+        margin-top: -14px;
+    }
+
+    #wwhats{
+        font-size: 0.8rem;
+    }
+    .contatos p {
+        font-size: 1rem;
+        height: 20px;
+    }
+
+    .contatos div i {
+        font-size: 1.2rem;
+        margin-right: 10px;
+        color: white;
+    }
+    
+    .contatos div span{
+        font-size: 1.2rem;
+        margin-right: 10px;
+        margin-top: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        color: white;
+    }
+
+    .foto-atendente{
+        height:380px;
+        width: 100%;
+        margin-top: 4px;
+    }
+
+
+    .img-atendente{
+        background-image:url(../img/footer/CINTHYA.PNG);
+        background-size: contain;
+        background-position: center
+         center;
+         background-repeat: no-repeat;
+    }
+
+    .img-atendente img{
+        display: none;
+    }
+    .viver{
+        text-transform: uppercase;
+        height: 20px;
+        font-size: 1.1rem;
+        font-weight: bolder;
+        padding: 4px;
+    }
+    .footer{
+        height: 10px;
+        font-weight: bold;
+    }
+
 }

@@ -6,7 +6,15 @@
 :root{
     --color-texto-destaques: yellow;
 }
-
+body::-webkit-scrollbar{
+    background-color: #00934c;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: yellow;
+}
+body::-webkit-scrollbar{
+    width: 10px;
+}
 .conteiner_top{
     width: 100%;
     height: 100vh;
@@ -22,6 +30,7 @@
 @keyframes opacity {
     0%{
         opacity: 0;
+        
     }
     100%{
         opacity: 1;  
@@ -111,8 +120,16 @@
 .imagem_wifizone img{
     width: 150%;
     height: 150%;
+    animation: wifi-rotate 3s infinite ease-in-out alternate-reverse;
 }
-
+@keyframes wifi-rotate {
+    0%{
+        transform: rotate(-3deg);
+    }
+    100%{
+        transform: rotate(6deg);
+    }
+}
 .imagem_logoatinfo{
     width: 90%;
     height: 20%;
