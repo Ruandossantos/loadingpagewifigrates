@@ -164,6 +164,7 @@
     .footer{
         height: 10px;
         font-weight: bold;
+        font-size: .8rem;
     }
 
 }
