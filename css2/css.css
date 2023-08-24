@@ -155,7 +155,7 @@ body::-webkit-scrollbar{
     }
 }
 
-
+                /*ESTILIZAÇÃO CONTAINER MAPA E CONTATOS*/
 main{
     
     background-color:green;
@@ -167,6 +167,8 @@ main{
     flex-direction: column;
 }
 
+
+                /*ESTILIZAÇÃO SEÇÃO DO MAPA*/
 .mapa{
     background-image: linear-gradient(45deg, #00934c, #00934c),url(../img/);
     width: 100%;
@@ -177,8 +179,7 @@ main{
     font-family: 'Roboto', sans-serif;
 }
 
-
-
+    /*ESTILIZAÇÃO IFRAMA DO MAPA*/
 .texto-mapa{
     text-align: center;
     margin: 0 auto;
@@ -196,8 +197,7 @@ main{
 }
 
 
-
-
+            /*ESTILIZAÇÃO ULTIMA SEÇÃO (CONTEM CONTATOS, IMAGEM DA ATENDENTE)*/
 .foto-contato{
     width: 100%;
     height: 90%;
@@ -224,7 +224,7 @@ main{
     text-transform: uppercase;
 }
 
-
+                /*ESTILIZAÇÃO PARTE DOS CONTATO E INSTAGRAM*/
 .container-img-contatos{
     height: 17%;
     width: 98%;
@@ -278,6 +278,8 @@ main{
     margin-left: 22px;
 }
 
+
+                /*ESTILIZAÇÃO DIV DA IMAGEM ATENDENTE*/
 .foto-atendente{
     display: flex;
     text-align: center;
@@ -301,8 +303,7 @@ main{
     width: 100%;
 }
 
-
-
+                    /*ESTILIZAÇÃO FOOTER*/
 .footer{
     color: black;
     font-size: .6rem;
