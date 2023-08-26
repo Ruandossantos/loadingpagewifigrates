@@ -16,15 +16,16 @@ body::-webkit-scrollbar{
     width: 10px;
 }
 .conteiner_top{
-    width: 100%;
+    width: 98%;
     height: 100vh;
-    background-image: linear-gradient(35deg, #00934c ,#00934ce1 ),url(../img/euamoibt.png);
+    background-image: linear-gradient(35deg, #930000 ,#930000e1 ),url(../img/euamoibt.png);
     display: flex;
     align-items: center;
     justify-content: center;
     background-size: cover;
     background-position: center center;
     animation: opacity 2s 1 ease-in-out;
+    margin: 0 auto;
 }
 
 @keyframes opacity {
@@ -170,9 +171,9 @@ main{
 
                 /*ESTILIZAÇÃO SEÇÃO DO MAPA*/
 .mapa{
-    background-image: linear-gradient(45deg, #00934c, #00934c),url(../img/);
-    width: 100%;
-    height: 88%;
+    background-image: linear-gradient(45deg, #7d9300, #938900),url(../img/);
+    width: 90%;
+    height: 80%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -199,10 +200,10 @@ main{
 
             /*ESTILIZAÇÃO ULTIMA SEÇÃO (CONTEM CONTATOS, IMAGEM DA ATENDENTE)*/
 .foto-contato{
-    width: 100%;
-    height: 90%;
+    width: 80%;
+    height: 80%;
     font-family: 'Roboto', sans-serif;
-    background-image: linear-gradient(45deg, #00934c, #00934ccc), url(../img/footer/Lovepik_com-400670962-geometric-lines.png);
+    background-image: linear-gradient(45deg, #930000, #930000cc), url(../img/footer/Lovepik_com-400670962-geometric-lines.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -221,7 +222,6 @@ main{
 .foto-contato .textos span{
     font-size: 1.5rem;
     color: yellow;
-    text-transform: uppercase;
 }
 
                 /*ESTILIZAÇÃO PARTE DOS CONTATO E INSTAGRAM*/

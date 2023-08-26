@@ -9,14 +9,17 @@
     }
     .conteudo_interno_top{
         position: relative;
+        background-color: blue;
     }
     .lado_direito{
-        width: 54%;
-        height: 100%;
         display: block;
         z-index: 1;
+        background-image: url(../img/footer/imagemlpwif_novo2.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
         position: absolute;
-        left: 90px;
+        left:160px;
     }
     .lado_direito img{
         width: 99%;
@@ -44,7 +47,7 @@
         font-size: 4.5rem;
     }
     .texto_conecte h2{
-        font-size: 3.5rem;
+        font-ize: 3.5rem;
     }
     .texto_abaixo_conece{
     }
@@ -69,13 +72,11 @@
     }
 
     main{
-        height: 200vh;
     }
     /*ESTILIZAÇÃO CONTEINER DO MINHA SEÇÃO MAPA*/
     .mapa{
         height: 200vh;
         width: 100%;
-        margin-top: -40px;
     }
     .texto-mapa h3{
         font-size: 1.5rem;
@@ -91,17 +92,13 @@
         }
     }
     .iframamapa{
-        height: 640px;
-        width: 100%;
     }
 
     .foto-contato{
-        width: 100%;
     }
     .container-texto{
         width: 50%;
         margin: 0 auto;
-        margin-top: 20px;
         height: 90px;
     }
     .textos{
@@ -110,7 +107,6 @@
     .container-img-contatos{
         width: 50%;
         height: 17%;
-        margin-top: -14px;
     }
 
     #wwhats{
