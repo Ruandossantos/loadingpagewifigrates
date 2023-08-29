@@ -16,9 +16,9 @@ body::-webkit-scrollbar{
     width: 10px;
 }
 .conteiner_top{
-    width: 98%;
+    width: 100%;
     height: 100vh;
-    background-image: linear-gradient(35deg, #930000 ,#930000e1 ),url(../img/euamoibt.png);
+    background-image: linear-gradient(35deg, #00934c,#00934cd5),url(../img/ft_main/euamoibt2.png);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -159,7 +159,7 @@ body::-webkit-scrollbar{
                 /*ESTILIZAÇÃO CONTAINER MAPA E CONTATOS*/
 main{
     
-    background-color:green;
+    background-color:rgba(128, 62, 0, 0.274);
     width: 100%;
     height: 190vh;
     display: flex;
@@ -171,9 +171,9 @@ main{
 
                 /*ESTILIZAÇÃO SEÇÃO DO MAPA*/
 .mapa{
-    background-image: linear-gradient(45deg, #7d9300, #938900),url(../img/);
-    width: 90%;
-    height: 80%;
+    background-image: linear-gradient(45deg, #00934c, #00934c);
+    width: 100%;
+    height: 90%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -200,10 +200,10 @@ main{
 
             /*ESTILIZAÇÃO ULTIMA SEÇÃO (CONTEM CONTATOS, IMAGEM DA ATENDENTE)*/
 .foto-contato{
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
     font-family: 'Roboto', sans-serif;
-    background-image: linear-gradient(45deg, #930000, #930000cc), url(../img/footer/Lovepik_com-400670962-geometric-lines.png);
+    background-image: linear-gradient(32deg, #00934cf5, #009342f3), url(../img/footer/Lovepik_nova.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -233,7 +233,7 @@ main{
 .container-img-contatos > p{
     border-radius: 4%;
     background-color: white;
-    color: green;
+    color: rgba(0, 128, 0, 0.664);
     text-transform: uppercase;  
     font-weight: bolder;
 }

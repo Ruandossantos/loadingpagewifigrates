@@ -9,12 +9,11 @@
     }
     .conteudo_interno_top{
         position: relative;
-        background-color: blue;
     }
     .lado_direito{
         display: block;
         z-index: 1;
-        background-image: url(../img/footer/imagemlpwif_novo2.png);
+        background-image: url(../img/ft_main/imagemlpwif_novo3.png);
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
