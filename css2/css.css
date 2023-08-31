@@ -2,7 +2,19 @@
     padding: 0;
     margin: 0;
 }
+body{
+    animation: opacity 2s 1 ease-in-out;
+}
 
+@keyframes opacity {
+    0%{
+        opacity: 0;
+        
+    }
+    100%{
+        opacity: 1;  
+    }
+}
 :root{
     --color-texto-destaques: yellow;
 }
@@ -250,7 +262,7 @@ main{
 .contatos p{
     background-color: white;
     color: green;
-    border-radius: 10px;
+    border-radius: 15px;
     width: 100%;
     height: 30px;
     text-transform: uppercase;
@@ -301,7 +313,11 @@ main{
     color: green;
     height: 20px;
     width: 100%;
+    border-radius: 15px;
 }
+.viver p{
+    font-size: .9rem;
+    }
 
                     /*ESTILIZAÇÃO FOOTER*/
 .footer{
