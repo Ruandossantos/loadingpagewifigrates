@@ -38,20 +38,14 @@
         right: 140px;
     }
     .texto_conecte {
-        height: 20%;
-        line-height: 50px;
-        margin-bottom: 10px;
+        height: 15%;
+        line-height: 33px;
     }
     .texto_conecte h1{
-        font-size: 4.5rem;
-    }
-    .texto_conecte h2{
-        font-ize: 3.5rem;
-    }
-    .texto_abaixo_conece{
+        font-size: 3rem;
     }
     .texto_abaixo_conece span{
-        font-size: 2rem;
+        font-size: 2.8rem;
     }
     .imagem_wifizone{
         width: 100%;
@@ -74,8 +68,10 @@
     }
     /*ESTILIZAÇÃO CONTEINER DO MINHA SEÇÃO MAPA*/
     .mapa{
-        height: 200vh;
-        width: 100%;
+    }
+    .texto-mapa h2{
+        font-size: 1.5rem;
+        animation: text-pa 1s 1 ease-in-out ;
     }
     .texto-mapa h3{
         font-size: 1.5rem;
@@ -91,8 +87,13 @@
         }
     }
     .iframamapa{
+        height: 82%;
+        width: 98%;
+        display: flex;
+        padding-top: 30px;
+        margin: 0 auto;
     }
-
+    
     .foto-contato{
     }
     .container-texto{
