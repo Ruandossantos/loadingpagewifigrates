@@ -30,7 +30,7 @@ body::-webkit-scrollbar{
 .conteiner_top{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(35deg, #00934c,#00934cd5),url(../img/ft_main/euamoibt2.png);
+    background-image: linear-gradient(35deg, #899300,#899300d5),url(../img/ft_main/euamoibt2.png);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,6 +55,7 @@ body::-webkit-scrollbar{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: red;
 }
 
 .lado_direito{
@@ -171,9 +172,8 @@ body::-webkit-scrollbar{
                 /*ESTILIZAÇÃO CONTAINER MAPA E CONTATOS*/
 main{
     
-    background-color:rgba(128, 62, 0, 0.274);
+    
     width: 100%;
-    height: 190vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -183,10 +183,11 @@ main{
 
                 /*ESTILIZAÇÃO SEÇÃO DO MAPA*/
 .mapa{
-    background-color: #00934c;
-    width: 100%;
-    height: 100%;
+    background-color: greenyellow;
+    width: 90vh;
+    height: 100vh;
     flex-direction: column;
+    padding-top: 20px;
     align-items: center;
     justify-content: center;
     font-family: 'Roboto', sans-serif;
@@ -207,22 +208,21 @@ main{
     color: white;
 }
 .iframamapa{
-    height: 88%;
-    width: 98%;
-    background-color: rgba(255, 0, 0, 0.603);
-    margin: 0 auto;
+    height: 90%;
+    width: 90%;
+    padding-top: 20px;
 }
 .iframamapa iframe{
-    width: 100%;
-    height: 100%;    
+    width: 98%;
+    height: 98%;    
     margin:0 auto ;
     }
 
 
             /*ESTILIZAÇÃO ULTIMA SEÇÃO (CONTEM CONTATOS, IMAGEM DA ATENDENTE)*/
 .foto-contato{
-    width: 100%;
-    height: 100%;
+    width: 100vh;
+    height: 100vh;
     font-family: 'Roboto', sans-serif;
     background-image: linear-gradient(32deg, #00934cf5, #009342f3), url(../img/footer/Lovepik_nova.png);
     background-position: center;
@@ -230,14 +230,16 @@ main{
     background-size: cover;
 }
 .container-texto{
-    width: 100%;
-    height: 20%;
+    width: 70%;
+    margin: 0 auto;
     text-align: center;
+    background-color: hotpink;
 }
 .foto-contato .textos{
-    font-size: 1.4rem;
+    font-size: 1rem;
     color: white;
-    padding: 20px;
+    width: 100%;
+    background-color: firebrick;
 }
 
 .foto-contato .textos span{
@@ -264,8 +266,8 @@ main{
     height: 95%;
     margin: 0 auto;
     text-align: center;
-    margin-top:20px;
     color: white;
+    background-color: gold;
 }
 
 .contatos p{
@@ -309,12 +311,12 @@ main{
     flex-direction: column;
 }
 .foto-atendente img{
-    width: 98%;
+    width: 51%;
+    background-color: darkblue;
+    margin: 0 auto;
 }
 
 .img-atendente{
-    width: 95%;
-    height: 95%;
 }
 
 .viver{
