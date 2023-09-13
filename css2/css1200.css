@@ -64,13 +64,13 @@
         height: 30%;
     }
 
-    main{
-    }
     /*ESTILIZAÇÃO CONTEINER DO MINHA SEÇÃO MAPA*/
     .mapa{
+        width: 95%;
+        height: 100vh;
     }
     .texto-mapa h2{
-        font-size: 1.5rem;
+        font-size: 2rem;
         animation: text-pa 1s 1 ease-in-out ;
     }
     .texto-mapa h3{
@@ -89,44 +89,46 @@
     .iframamapa{
         height: 82%;
         width: 98%;
-        display: flex;
-        padding-top: 30px;
         margin: 0 auto;
     }
     
     .foto-contato{
+        width: 95%;
     }
     .container-texto{
-        width: 50%;
+        width: 70%;
         margin: 0 auto;
-        height: 90px;
+        height: 10%;
+        margin-top: 30px;
     }
-    .textos{
-        font-size: 3rem;
+    .container-texto .textos{
+        font-size: 1.3rem;
+    }
+    .container-texto .textos span{
+        font-size: 1.4rem;
     }
     .container-img-contatos{
-        width: 50%;
-        height: 17%;
+        width: 70%;
+        height: 15%;
     }
 
     #wwhats{
         font-size: 0.8rem;
     }
     .contatos p {
-        font-size: .9rem;
+        font-size: 1.2rem;
         height: 20px;
     }
 
     .contatos div i {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         margin-right: 10px;
         color: white;
     }
     
     .contatos div span{
-        font-size: 1.2rem;
-        margin-right: 10px;
-        margin-top: 20px;
+        font-size: 1.4rem;
+        margin-right: 4px;
         font-family: 'Roboto', sans-serif;
         font-weight: 700;
         color: white;
@@ -134,22 +136,16 @@
 
     .foto-atendente{
         height:380px;
-        width: 100%;
-        margin-top: 4px;
+        width: 90%;
+        margin:  0 auto;
+        margin-top: 30px;
     }
 
 
     .img-atendente{
-        background-image:url(../img/footer/CINTHYA.PNG);
-        background-size: contain;
-        background-position: center
-         center;
-         background-repeat: no-repeat;
+        width: 85%;
     }
 
-    .img-atendente img{
-        display: none;
-    }
     .viver{
         text-transform: uppercase;
         height: 20px;
