@@ -68,6 +68,8 @@
     .mapa{
         width: 95%;
         height: 100vh;
+        background-color: red
+        ;
     }
     .texto-mapa h2{
         font-size: 2rem;
@@ -94,22 +96,23 @@
     
     .foto-contato{
         width: 95%;
+        background-color: #000000;
     }
     .container-texto{
         width: 70%;
-        margin: 0 auto;
-        height: 10%;
-        margin-top: 30px;
+        background-color: greenyellow;
+        margin-top: 20px;
     }
     .container-texto .textos{
-        font-size: 1.3rem;
+        font-size: 2rem;
     }
     .container-texto .textos span{
-        font-size: 1.4rem;
+        font-size: 2.1rem;
     }
     .container-img-contatos{
         width: 70%;
         height: 15%;
+        background-color: hotpink;
     }
 
     #wwhats{
@@ -135,15 +138,14 @@
     }
 
     .foto-atendente{
-        height:380px;
-        width: 90%;
-        margin:  0 auto;
-        margin-top: 30px;
+        width: 100%;
+        background-color: blue;
     }
 
 
     .img-atendente{
-        width: 85%;
+        width: 40%;
+        margin: 0 auto;
     }
 
     .viver{
