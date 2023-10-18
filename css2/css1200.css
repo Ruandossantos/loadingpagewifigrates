@@ -19,14 +19,12 @@
         background-repeat: no-repeat;
         position: absolute;
         left:160px;
-    }
-    .lado_direito img{
-        width: 99%;
-        animation: home-top-down 1s 1 ease-in-out;
+        animation: home-top-down 2s 1 ease-in-out
     }
 
     @keyframes home-top-down {
         0%{
+            opacity: 0;
             transform: translateX(-180px);
         }
         100%{
@@ -51,7 +49,7 @@
     }
     .imagem_wifizone{
         width: 100%;
-        height: 40%;
+        height: 35%;
         position: absolute;
         top:150px;
         right: 50px;
