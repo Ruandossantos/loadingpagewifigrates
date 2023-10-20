@@ -38,14 +38,15 @@
 
     .texto_conecte {
         height: 15%;
-        line-height: 33px;
+        line-height: 40px;
+        margin-bottom:20px;
     }
     .texto_conecte h1{
         font-size: 2.6rem;
     }
     .texto_abaixo_conece span{
         font-size: 2.4rem;
-        line-height: 40px;
+        line-height: 30px;
     }
     .imagem_wifizone{
         width: 100%;
@@ -86,7 +87,7 @@
 
         }
     }
-    .iframamapa{
+  .iframamapa{
         height: 82%;
         width: 98%;
         margin: 0 auto;
@@ -109,6 +110,16 @@
     .container-img-contatos{
         width: 70%;
         height: 15%;
+    }
+}
+    .link-insta {
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        cursor: pointer;
+        font-size: 1.2rem;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
     }
 
     #wwhats{
